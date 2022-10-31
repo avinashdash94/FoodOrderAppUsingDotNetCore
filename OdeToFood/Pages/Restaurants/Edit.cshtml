@@ -1,0 +1,30 @@
+﻿@*this way help us to set up path fo this age in this way*@
+@*int? is to make this parameter optiol so that it can be used for add new Item insted of editing only*@
+@page "{restaurantId:int?}"
+@model OdeToFood.Pages.Restaurants.EditModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Editing @Model.Restaurant.Name</h2>
+
+<form method="post">
+    <input type="hidden" asp-for="Restaurant.Id" />
+    <div class="form-group">
+        <label asp-for="Restaurant.Name"></label>
+        <input asp-for="Restaurant.Name" class="form-control" />
+        <span class="text-danger" asp-validation-for="Restaurant.Name"></span>  @*asp-validation-for is used to check all the validation for the Model property appled through Annotation*@
+    </div>
+    <div class="form-group">
+        <label asp-for="Restaurant.Location"></label>
+        <input asp-for="Restaurant.Location" class="form-control" />
+        <span class="text-danger" asp-validation-for="Restaurant.Location"></span>@*asp-validation-for is used to check all the validation for the Model property appled through Annotation*@
+    </div>
+    <div class="form-group">
+        <label asp-for="Restaurant.Cuisine"></label>
+        <select class="form-control" asp-for="Restaurant.Cuisine"
+                asp-items="Model.Cuisines"></select>
+        <span class="text-danger" asp-validation-for="Restaurant.Cuisine"></span>@*asp-validation-for is used to check all the validation for the Model property appled through Annotation*@
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>
