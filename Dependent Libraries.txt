@@ -1,3 +1,0 @@
-Microsoft.EntityFrameworkCore(2.1.4)
-Microsoft.EntityFrameworkCore.SqlServer(2.1.4)
-Microsoft.EntityFrameworkCore.Design(2.1.4)
