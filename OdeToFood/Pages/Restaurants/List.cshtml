@@ -1,53 +1,78 @@
 ﻿@page
 @model OdeToFood.Pages.Restaurants.ListModel
 @{
+    ViewData["Title"] = "Restaurants";
 }
 
 
 <h1>Restauran</h1>
 
-<form  method="get">
+<form method="get">
     <div class="form-group">
         <div class="input-group">
             <input type="search" class="form-control"
                    asp-for="SearchTerm" />  @*asp-for is used to bind this input fild with backed property*@
-            <span class="input-group-btn">
-                <button class="btn btn-primary">
-                    Search
-                    @*<i class="fa-search fa-search-plus"></i>*@
-                </button>
-            </span>
+                <span class="input-group-btn">
+                    <button class="btn btn-primary">
+                        Search
+                        @*<i class="fa-search fa-search-plus"></i>*@
+                    </button>
+                </span>
+            </div>
         </div>
-    </div>
-</form>
+    </form>
 
-<table class="table">
-    @foreach(var restaurant in Model.Restaurants)
-            {
-                <tr>
-                    <td>@restaurant.Name</td>
-                    <td>@restaurant.Location</td>
-                    <td>@restaurant.Cuisine</td>
-                    <td>
-                        <a class="btn btn-lg"
-                           asp-page="./Detail"
-                           asp-route-restaurantId="@restaurant.Id">
-                            @*these attributes are used to set the page name and route parameters by asp-route-restaurantId*@
-                            <i class="fa-solid fa-magnifying-glass-location">detail</i>
-                        </a>
-                        <a class="btn btn-lg"
-                           asp-page="./Edit"
-                           asp-route-restaurantId="@restaurant.Id">
-                            @*these attributes are used to set the page name and route parameters by asp-route-restaurantId*@
-                            <i class="fa-solid fa-pen-to-square">Edit</i>
-                        </a>
-                    </td>
-                </tr>
-            }
-</table>
+
+
+<!--<table class="table">
+@@foreach (var restaurant in Model.Restaurants)
+    {
+    <tr>
+    <td>@@restaurant.Name</td>
+    <td>@@restaurant.Location</td>
+    <td>@@restaurant.Cuisine</td>
+    <td>
+    <a class="btn btn-lg"
+        asp-page="./Detail"
+        asp-route-restaurantId="@@restaurant.Id">
+
+    @@*these attributes are used to set the page name and route parameters by asp-route-restaurantId
+    <i class="glyphicon glyphicon-zoom-in"></i>
+    </a>
+    <a class="btn btn-lg"
+        asp-page="./Edit"
+        asp-route-restaurantId="@@restaurant.Id">
+   
+    @@*these attributes are used to set the page name and route parameters by asp-route-restaurantId*@@
+    <i class="glyphicon glyphicon-edit"></i>
+    </a>
+    <a class="btn btn-lg"
+       asp-page="./Delete"
+       asp-route-restaurantId="@@restaurant.Id">
+       
+
+        @@*these attributes are used to set the page name and route parameters by asp-route-restaurantId*@@
+        <i class="glyphicon glyphicon-trash"></i>
+    </a>
+    </td>
+    </tr>
+}
+</table>-->
+
+
+@*To show above table in through _summary partial view*@
+@foreach (var restaurant in Model.Restaurants)
+{
+    <partial name="_Summary" model="restaurant" />
+}
 
 <a asp-page=".\Edit" class="btn btn-primary">Add new </a>
 
-<div>@Model.Message</div>
+@section footer{
+
+    <div>@Model.Message</div>
+
+}
+
 
 

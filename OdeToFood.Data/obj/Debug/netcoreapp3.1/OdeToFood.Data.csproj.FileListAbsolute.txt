@@ -10,6 +10,7 @@ C:\D_Drive\CodingPractice\2022-23\AspDotNet\ASp.NetCoreFundamentals\OdeToFood\Od
 C:\D_Drive\CodingPractice\2022-23\AspDotNet\ASp.NetCoreFundamentals\OdeToFood\OdeToFood.Data\obj\Debug\netcoreapp3.1\OdeToFood.Data.AssemblyInfoInputs.cache
 C:\D_Drive\CodingPractice\2022-23\AspDotNet\ASp.NetCoreFundamentals\OdeToFood\OdeToFood.Data\obj\Debug\netcoreapp3.1\OdeToFood.Data.AssemblyInfo.cs
 C:\D_Drive\CodingPractice\2022-23\AspDotNet\ASp.NetCoreFundamentals\OdeToFood\OdeToFood.Data\obj\Debug\netcoreapp3.1\OdeToFood.Data.csproj.CoreCompileInputs.cache
+C:\D_Drive\CodingPractice\2022-23\AspDotNet\ASp.NetCoreFundamentals\OdeToFood\OdeToFood.Data\obj\Debug\netcoreapp3.1\OdeToFood.Data.csproj.CopyComplete
 C:\D_Drive\CodingPractice\2022-23\AspDotNet\ASp.NetCoreFundamentals\OdeToFood\OdeToFood.Data\obj\Debug\netcoreapp3.1\OdeToFood.Data.dll
 C:\D_Drive\CodingPractice\2022-23\AspDotNet\ASp.NetCoreFundamentals\OdeToFood\OdeToFood.Data\obj\Debug\netcoreapp3.1\OdeToFood.Data.pdb
 C:\D_Drive\CodingPractice\2022-23\AspDotNet\ASp.NetCoreFundamentals\OdeToFood\OdeToFood.Data\obj\Debug\netcoreapp3.1\OdeToFood.Data.genruntimeconfig.cache

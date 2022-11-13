@@ -72,10 +72,13 @@ C:\D_Drive\CodingPractice\2022-23\AspDotNet\ASp.NetCoreFundamentals\OdeToFood\Od
 C:\D_Drive\CodingPractice\2022-23\AspDotNet\ASp.NetCoreFundamentals\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
 C:\D_Drive\CodingPractice\2022-23\AspDotNet\ASp.NetCoreFundamentals\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
 C:\D_Drive\CodingPractice\2022-23\AspDotNet\ASp.NetCoreFundamentals\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+C:\D_Drive\CodingPractice\2022-23\AspDotNet\ASp.NetCoreFundamentals\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\Razor\Pages\Restaurants\Delete.cshtml.g.cs
 C:\D_Drive\CodingPractice\2022-23\AspDotNet\ASp.NetCoreFundamentals\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\Razor\Pages\Restaurants\Detail.cshtml.g.cs
 C:\D_Drive\CodingPractice\2022-23\AspDotNet\ASp.NetCoreFundamentals\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\Razor\Pages\Restaurants\Edit.cshtml.g.cs
 C:\D_Drive\CodingPractice\2022-23\AspDotNet\ASp.NetCoreFundamentals\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\Razor\Pages\Restaurants\List.cshtml.g.cs
 C:\D_Drive\CodingPractice\2022-23\AspDotNet\ASp.NetCoreFundamentals\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\Razor\Pages\Restaurants\NotFound.cshtml.g.cs
+C:\D_Drive\CodingPractice\2022-23\AspDotNet\ASp.NetCoreFundamentals\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\Razor\Pages\Restaurants\_Summary.cshtml.g.cs
+C:\D_Drive\CodingPractice\2022-23\AspDotNet\ASp.NetCoreFundamentals\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\Components\RestaurantCount\Default.cshtml.g.cs
 C:\D_Drive\CodingPractice\2022-23\AspDotNet\ASp.NetCoreFundamentals\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
 C:\D_Drive\CodingPractice\2022-23\AspDotNet\ASp.NetCoreFundamentals\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\D_Drive\CodingPractice\2022-23\AspDotNet\ASp.NetCoreFundamentals\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
