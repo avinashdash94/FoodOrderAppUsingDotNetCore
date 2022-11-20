@@ -53,8 +53,9 @@ namespace OdeToFood
             }
 
             app.UseHttpsRedirection();
-            app.UseStaticFiles();
-
+            app.UseStaticFiles();// Used to get static file from wwwroot folder
+            app.UseNodeModules(); //used to find get static file from Node modules 
+            app.UseCookiePolicy();
             app.UseRouting();
 
             app.UseAuthorization();
@@ -62,6 +63,7 @@ namespace OdeToFood
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
+                endpoints.MapControllers();
             });
         }
     }

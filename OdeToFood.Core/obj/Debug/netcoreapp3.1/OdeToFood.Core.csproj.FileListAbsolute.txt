@@ -1,7 +1,6 @@
 C:\D_Drive\CodingPractice\2022-23\AspDotNet\ASp.NetCoreFundamentals\OdeToFood\OdeToFood.Core\bin\Debug\netcoreapp3.1\OdeToFood.Core.deps.json
 C:\D_Drive\CodingPractice\2022-23\AspDotNet\ASp.NetCoreFundamentals\OdeToFood\OdeToFood.Core\bin\Debug\netcoreapp3.1\OdeToFood.Core.dll
 C:\D_Drive\CodingPractice\2022-23\AspDotNet\ASp.NetCoreFundamentals\OdeToFood\OdeToFood.Core\bin\Debug\netcoreapp3.1\OdeToFood.Core.pdb
-C:\D_Drive\CodingPractice\2022-23\AspDotNet\ASp.NetCoreFundamentals\OdeToFood\OdeToFood.Core\obj\Debug\netcoreapp3.1\OdeToFood.Core.csproj.AssemblyReference.cache
 C:\D_Drive\CodingPractice\2022-23\AspDotNet\ASp.NetCoreFundamentals\OdeToFood\OdeToFood.Core\obj\Debug\netcoreapp3.1\OdeToFood.Core.GeneratedMSBuildEditorConfig.editorconfig
 C:\D_Drive\CodingPractice\2022-23\AspDotNet\ASp.NetCoreFundamentals\OdeToFood\OdeToFood.Core\obj\Debug\netcoreapp3.1\OdeToFood.Core.AssemblyInfoInputs.cache
 C:\D_Drive\CodingPractice\2022-23\AspDotNet\ASp.NetCoreFundamentals\OdeToFood\OdeToFood.Core\obj\Debug\netcoreapp3.1\OdeToFood.Core.AssemblyInfo.cs
